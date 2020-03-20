@@ -1,0 +1,23 @@
+.person {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.person-img img {
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+}
+
+.person-info {
+    margin-left: 30px;
+}
+
+.person-discription {
+    width: 100%;
+}
+
+.discrioption-content {
+    max-width: 500px;
+}
