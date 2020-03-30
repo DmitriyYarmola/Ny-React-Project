@@ -1,10 +1,10 @@
-.post-button button {
+.button button{
     background: greenyellow;
     padding: 10px 20px;
     border-radius: 5px;
     transition: .3s;
 }
 
-.post-button button:hover {
+.button button:hover {
     background: lawngreen;
 }

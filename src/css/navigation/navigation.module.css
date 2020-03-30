@@ -14,3 +14,7 @@
 .nav a:hover {
     color: black;
 }
+
+.nav a.active {
+    color: black;
+}

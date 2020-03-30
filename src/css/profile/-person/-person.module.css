@@ -1,0 +1,9 @@
+.person {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+
+.content {
+    max-width: 500px;
+}
