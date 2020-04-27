@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ceb2df52705b298256a795c98a13a28",
+    "revision": "d110e7f9eb8347fb7838f772d184f8ab",
     "url": "/Ny-React-Project/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ny-React-Project/static/css/8.cc2be8f5.chunk.css"
   },
   {
-    "revision": "d7add4a7dc311f04021a",
+    "revision": "461ebe6a2b6f4cf7e0f0",
     "url": "/Ny-React-Project/static/css/main.e3d12111.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ny-React-Project/static/js/8.ec0269e7.chunk.js"
   },
   {
-    "revision": "d7add4a7dc311f04021a",
-    "url": "/Ny-React-Project/static/js/main.e4504d83.chunk.js"
+    "revision": "461ebe6a2b6f4cf7e0f0",
+    "url": "/Ny-React-Project/static/js/main.ab57c50a.chunk.js"
   },
   {
     "revision": "a30f838b5cf9067b5391",
