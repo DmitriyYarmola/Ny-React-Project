@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdfde339fb83b46ecc0748361ce71a5d",
+    "revision": "1ceb2df52705b298256a795c98a13a28",
     "url": "/Ny-React-Project/index.html"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ny-React-Project/static/css/5.46fb7c4b.chunk.css"
   },
   {
-    "revision": "78495dd51081e1e57f53",
+    "revision": "e7e02c8c0fbddd5fe837",
     "url": "/Ny-React-Project/static/css/6.5bdaa82f.chunk.css"
   },
   {
-    "revision": "01fba8c4d236b5a1a69e",
+    "revision": "08556a5a5e9d7deffc5a",
     "url": "/Ny-React-Project/static/css/7.cb40a046.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ny-React-Project/static/css/8.cc2be8f5.chunk.css"
   },
   {
-    "revision": "43fe53efa3e76805a632",
+    "revision": "d7add4a7dc311f04021a",
     "url": "/Ny-React-Project/static/css/main.e3d12111.chunk.css"
   },
   {
@@ -36,36 +36,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ny-React-Project/static/js/3.714a9acd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc2de028e9450b114c07",
-    "url": "/Ny-React-Project/static/js/4.7e6c0a53.chunk.js"
+    "revision": "cd869052fe6926096729",
+    "url": "/Ny-React-Project/static/js/4.2bef9fad.chunk.js"
   },
   {
     "revision": "ac9fac6c8e755a8efecd01981adb88e6",
-    "url": "/Ny-React-Project/static/js/4.7e6c0a53.chunk.js.LICENSE.txt"
+    "url": "/Ny-React-Project/static/js/4.2bef9fad.chunk.js.LICENSE.txt"
   },
   {
     "revision": "90c7b860c690256aba9f",
     "url": "/Ny-React-Project/static/js/5.cd6fdcfb.chunk.js"
   },
   {
-    "revision": "78495dd51081e1e57f53",
-    "url": "/Ny-React-Project/static/js/6.c5b68740.chunk.js"
+    "revision": "e7e02c8c0fbddd5fe837",
+    "url": "/Ny-React-Project/static/js/6.4b9d26c5.chunk.js"
   },
   {
-    "revision": "01fba8c4d236b5a1a69e",
-    "url": "/Ny-React-Project/static/js/7.a9ebcb70.chunk.js"
+    "revision": "08556a5a5e9d7deffc5a",
+    "url": "/Ny-React-Project/static/js/7.998c5857.chunk.js"
   },
   {
     "revision": "a38a5841746e4f63a09a",
     "url": "/Ny-React-Project/static/js/8.ec0269e7.chunk.js"
   },
   {
-    "revision": "43fe53efa3e76805a632",
-    "url": "/Ny-React-Project/static/js/main.67ddd8b0.chunk.js"
+    "revision": "d7add4a7dc311f04021a",
+    "url": "/Ny-React-Project/static/js/main.e4504d83.chunk.js"
   },
   {
-    "revision": "a090cf3c0ddab8c0c106",
-    "url": "/Ny-React-Project/static/js/runtime-main.a1917544.js"
+    "revision": "a30f838b5cf9067b5391",
+    "url": "/Ny-React-Project/static/js/runtime-main.16160e7e.js"
   },
   {
     "revision": "467c191ae6bf12921ff19a54c7e3d7f7",
