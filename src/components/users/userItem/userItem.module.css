@@ -1,0 +1,45 @@
+.users {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #c8cdea, #fed6e3);
+    margin: 5px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 20px;
+    
+}
+
+.location {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.like {
+    display: grid;
+    justify-content: center;
+}
+.like img{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.like button{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: .2s linear;
+}
+
+.like button:hover {
+    background: black;
+}

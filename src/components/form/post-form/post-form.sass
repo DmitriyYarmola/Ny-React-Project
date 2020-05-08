@@ -1,0 +1,94 @@
+@import './../../../css/variables'
+    
+.post-form
+    width: 400px
+    
+.post-form_button
+    display: inline-grid
+    padding: 5px 10px
+    border-radius: 5px
+    transition: .3s
+    color: black
+    cursor: pointer
+    height: max-content
+    background: $green
+    &:hover
+        color: $white
+        background: $green-hover
+        box-shadow: 0 3px 5px 2px rgba($green-hover, .3);
+
+
+.post-form_input-content 
+    width: 100%
+    padding: 0
+    padding-left: 20px
+    margin: 0
+    border: 0
+    height: 30px
+    border-radius: 5px
+    margin-top: 10px
+
+
+.post-form_input-title
+    width: 100%
+    padding: 0
+    padding-left: 20px
+    margin: 0
+    border: 0
+    height: 30px
+    border-radius: 5px
+    margin-top: 10px
+
+
+.post-form_input-content
+    background: none
+    border: none
+    outline: none
+    position: relative
+    input
+        color: $white
+    
+    &::placeholder
+        color: $white
+
+    &:focus,  
+        outline-color: blue
+        color: $white
+        &+label
+            &::before, &::after
+                width: 50%
+    &+label
+        width: 100%
+        background: $white
+        position: relative
+        height: 1px
+        display: block
+        &::after, &::before
+            transition: .3s linear
+            content: ''
+            display: block
+            width: 0%
+            height: 1px
+            background: $green-hover
+            position: absolute
+
+        &::before
+            bottom: 0
+            left: 0
+        &::after
+            bottom: 0
+            right: 0
+
+.author-image
+    border-radius: 50%
+    width: 40px
+    height: 40px
+
+.post-author
+    display: flex
+    align-items: center
+.author-name
+    padding-left: 10px
+.inputList 
+    margin-right: 30px
+

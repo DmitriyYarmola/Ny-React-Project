@@ -1,0 +1,48 @@
+@import './../../../../css/variables'
+    
+
+.profile-block
+    padding: 10px
+    background: $green
+    height: max-content
+
+    &:hover
+        .profile-input_choose
+            transform: translate(-50%, 0)
+
+.profile-portait
+    overflow: hidden
+    width: 200px
+    height: 300px
+    position: relative
+    input
+        display: none
+        width: 100%
+        &+label
+            align-items: center
+            display: grid
+            grid-template-columns: 20% 80%
+
+
+.profile-input_choose
+    position: absolute
+    display: grid
+    justify-content: center
+    background: rgba(0, 0, 0, .5)
+    width: 100%
+    bottom: 0
+    left: 50%
+    transform: translate(-50%, 25px)
+    transition: .2s linear
+    cursor: pointer
+
+    span
+        cursor: pointer
+    
+        
+
+
+
+
+
+

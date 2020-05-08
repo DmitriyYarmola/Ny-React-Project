@@ -1,11 +1,14 @@
 import React from 'react'
-import news from './../../css/music/music.module.css'
-const Music = () => {
-    return (
-        <div>
-            Music
-        </div>
-    )
+import style from './music.module.css'
+
+class Music extends React.Component {
+    render() {
+        return (
+            <div>
+                Music
+            </div>
+        )
+    }
 }
 
 export default Music

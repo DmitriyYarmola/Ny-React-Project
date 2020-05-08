@@ -1,0 +1,32 @@
+@import '../../../css/variables'
+    
+.message-form
+    grid-area: f
+    
+.message-form_input
+    outline: none
+    height: 40px
+    width: 100%
+    input
+        color: $white!important
+
+.message-form_button
+    border: 0
+    padding: 10px
+    margin: 0
+    background: green
+    border-radius: 5px
+    color: $white
+    transition: .3s
+
+
+.message-form_button
+    &:hover 
+        color: black
+        background: yellowgreen
+        cursor: pointer
+
+.message-form_layout
+    display: grid
+    grid-template-columns: 90% 10%
+    align-items: center

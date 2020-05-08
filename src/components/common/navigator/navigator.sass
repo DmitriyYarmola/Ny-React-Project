@@ -1,0 +1,82 @@
+@import "./../../../css/variables"
+
+.humburger
+    position: relative
+
+    &:hover
+        .nav
+            transform: rotate(-305deg)
+            
+.humburger-menu
+    background: $black
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    height: 40px
+    position: absolute
+    top: 10px
+    left: 5px
+    z-index: 10
+
+.hamburger-line
+    width: 30px
+    height: 3px
+    background-color: $white
+    position: relative
+    
+    &::after, &::before
+        position: absolute
+        content: ''
+        display: block
+        width: 100%
+        height: 3px
+        background: $white
+
+    &::after
+        bottom: -5px
+    &::before
+        bottom: 5px
+
+.nav
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    background: transpatent
+    position: absolute
+    border-left: none
+    transform: rotate(-120deg)
+    transition: .5s linear 
+    svg
+        font-size: 36px
+
+.nav-item:nth-child(1)
+    transform: translate(25px, -40px) rotate(-5deg)
+
+.nav-item:nth-child(2)
+    transform: translate(30px, -35px) rotate(95deg)
+
+.nav-item:nth-child(3)
+    transform: translate(60px, -128px) rotate(45deg)
+    
+.nav-item
+    display: flex!important
+    align-items: center!important
+    justify-content: center!important
+    width: 100%
+    height: 100%
+    background: $green
+    border-radius: 50% 0
+    cursor: pointer
+    transition: .5s linear
+    &:hover
+        background: lighten($green-hover, 10%)
+
+.nav a.active 
+    color: black
+    background: $green-hover
+
+        
+
+        

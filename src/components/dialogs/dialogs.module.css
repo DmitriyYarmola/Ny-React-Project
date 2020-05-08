@@ -1,0 +1,16 @@
+.dialogs {
+    display: grid;
+    grid-template-areas: 
+    "d m"
+    "f f";
+}
+
+.dialogsSend {
+    display: flex;
+    grid-area: f;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+

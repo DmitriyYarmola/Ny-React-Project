@@ -1,0 +1,15 @@
+.selectedPage {
+    font-weight: 800;
+}
+
+
+.pageNumberList {
+    margin-top: 10px;
+}
+
+.pageNumber {
+    color: black;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+}
